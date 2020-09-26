@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "0a0623f2da78cd486efe9faf2902ec51"
+build_time: [1601118407, 415332000]
+inputs:
+  "/Users/mewkybar/Downloads/iOS Test (Intermediate) Question/Question Projects/Test4_UseYourFramework/Test4_UseYourFramework/ViewController.swift": [1601117912, 979487032]
+  "/Users/mewkybar/Downloads/iOS Test (Intermediate) Question/Question Projects/Test4_UseYourFramework/Test4_UseYourFramework/AppDelegate.swift": [1601117842, 636887113]

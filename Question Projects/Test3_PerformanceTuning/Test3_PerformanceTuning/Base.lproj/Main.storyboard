@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dBq-1T-Nst">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Thumb Nail View Controller-->
+        <scene sceneID="wnx-ll-tqc">
+            <objects>
+                <tableViewController id="dBq-1T-Nst" customClass="ThumbNailViewController" customModule="Test3_PerformanceTuning" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="d4B-1P-a3p">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="279" id="hUc-u3-o2v" customClass="ThumbNailCell" customModule="Test3_PerformanceTuning" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="279"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hUc-u3-o2v" id="zW3-12-apP">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="278.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4WZ-gX-JDw">
+                                            <rect key="frame" x="589" y="28" width="240" height="240"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="240" id="BhM-KF-c4v"/>
+                                                <constraint firstAttribute="height" constant="240" id="FBB-BA-PIN"/>
+                                            </constraints>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zrT-hC-xcP">
+                                            <rect key="frame" x="189" y="28" width="240" height="240"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="240" id="EiV-lD-FJ3"/>
+                                                <constraint firstAttribute="width" constant="240" id="whs-V3-xPU"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="4WZ-gX-JDw" secondAttribute="bottom" id="54p-mV-ucG"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="zrT-hC-xcP" secondAttribute="bottom" id="IAw-6C-AIf"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="4WZ-gX-JDw" secondAttribute="trailing" constant="175" id="P9R-jP-uMO"/>
+                                        <constraint firstItem="4WZ-gX-JDw" firstAttribute="top" secondItem="zW3-12-apP" secondAttribute="topMargin" constant="17" id="hZC-51-gjP"/>
+                                        <constraint firstItem="zrT-hC-xcP" firstAttribute="leading" secondItem="zW3-12-apP" secondAttribute="leadingMargin" constant="169" id="jqC-bc-TUc"/>
+                                        <constraint firstItem="zrT-hC-xcP" firstAttribute="top" secondItem="zW3-12-apP" secondAttribute="topMargin" constant="17" id="qYz-2R-fAL"/>
+                                        <constraint firstItem="4WZ-gX-JDw" firstAttribute="leading" secondItem="zrT-hC-xcP" secondAttribute="trailing" constant="160" id="vMH-xk-2s2"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="firstImageView" destination="zrT-hC-xcP" id="gQj-Bq-oVf"/>
+                                    <outlet property="secondImageView" destination="4WZ-gX-JDw" id="0U6-Zp-23G"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dBq-1T-Nst" id="vjK-P2-Tqa"/>
+                            <outlet property="delegate" destination="dBq-1T-Nst" id="qAQ-xe-vBI"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="thumbNailTableView" destination="d4B-1P-a3p" id="O51-dP-kYJ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l5g-Z6-ngE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.61718749999997" y="-162.5"/>
+        </scene>
+    </scenes>
+</document>

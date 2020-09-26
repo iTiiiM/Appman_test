@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "617fee755d50c432e0ae24ff9e7ea1c6"
+build_time: [1601118599, 446157000]
+inputs:
+  "/Users/mewkybar/Desktop/SimpleSwiftFramework/SimpleSwiftFramework/CallingFrameworkFunction.swift": [1601118599, 376925872]

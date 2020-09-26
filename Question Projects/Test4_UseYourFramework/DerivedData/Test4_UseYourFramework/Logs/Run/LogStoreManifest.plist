@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>B7777D6B-7A75-4CB1-A268-9B869A728E2A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B7777D6B-7A75-4CB1-A268-9B869A728E2A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Test4_UseYourFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test4_UseYourFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Test4_UseYourFramework</string>
+			<key>timeStartedRecording</key>
+			<real>622811363.75625706</real>
+			<key>timeStoppedRecording</key>
+			<real>622811391.43409002</real>
+			<key>title</key>
+			<string>Run Test4_UseYourFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>B7777D6B-7A75-4CB1-A268-9B869A728E2A</string>
+		</dict>
+		<key>F38C336C-1DE1-4397-801E-3E28874BDC90</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F38C336C-1DE1-4397-801E-3E28874BDC90.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Test4_UseYourFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Test4_UseYourFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Test4_UseYourFramework</string>
+			<key>timeStartedRecording</key>
+			<real>622811295.99449098</real>
+			<key>timeStoppedRecording</key>
+			<real>622811362.11138701</real>
+			<key>title</key>
+			<string>Run Test4_UseYourFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>F38C336C-1DE1-4397-801E-3E28874BDC90</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
